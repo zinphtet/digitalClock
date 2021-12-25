@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(47, 85, 72);
+    flex-direction: column;
+}
+.clock{
+    color: rgb(6, 255, 255);
+    font-size: 2rem;
+    display: flex;
+    
+}
+
+input{
+    width: 100px;
+    height: 30px;
+}
